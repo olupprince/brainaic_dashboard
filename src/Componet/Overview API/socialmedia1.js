@@ -1,0 +1,38 @@
+export default [
+    {
+      id: 1,
+      username: '@sanchezalania',
+      socialNetwork: 'facebook',
+      icon: { url: 'images/icon-facebook.svg', name: 'Facebook' },
+      total: 8745,
+      description: 'Followers',
+      totalToday: 15,
+    },
+    {
+      id: 2,
+      username: '@sanchezalania',
+      socialNetwork: 'twitter',
+      icon: { url: 'images/icon-twitter.svg', name: 'Twitter' },
+      total: 0957,
+      description: 'Followers',
+      totalToday: 94,
+    },
+    {
+      id: 3,
+      username: '@sanchezalania',
+      socialNetwork: 'instagram',
+      icon: { url: 'images/icon-instagram.svg', name: 'Instagram' },
+      total: 25437,
+      description: 'Followers',
+      totalToday: 0967,
+    },
+    {
+      id: 4,
+      username: '@sanchezalania',
+      socialNetwork: 'youtube',
+      icon: { url: 'images/icon-youtube.svg', name: 'Youtube' },
+      total: 2645,
+      description: 'Subscribers',
+      totalToday: -876,
+    },
+  ]
