@@ -25,7 +25,7 @@ body {
     /* border: 2px solid red; */
     /* top: 3rem; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.842);
-    margin-left: 2rem;
+    margin-left: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -50,7 +50,135 @@ body {
     text-shadow: 2px 2px 4px #615e5e;
     
 }
-.ver-line {
-    border-left: 1px solid #fff;
-    height: 100%;
+.container2 {
+    display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    width: 100%;
+    height: 28rem;
+    /* background-color: #00ff00; */
+    /* margin-top: 5rem; */
+    /* border: 3px solid red; */
+}
+.facebook-output {
+    position: relative;
+    width: 20rem;
+    height: 15rem;
+    background-color: #3d3c3c;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-left: .425rem;
+}
+.instagram-output {
+    position: relative;
+    width: 10rem;
+    height: 15rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+}
+.twitter-output {
+    position: relative;
+    width: 10rem;
+    height: 15rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+}
+.youtube-output {
+    position: relative;
+    width: 20rem;
+    height: 18rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+}
+.empty-container1 {
+    position: relative;
+    width: 15rem;
+    height: 17rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+    bottom: 7.5rem;
+    margin-left: 1rem;
+}
+h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* background: linear-gradient(45deg, #ff0000, #00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(45deg, #ff0000, #00ff00);
+    background-clip: clip;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.empty-container2 {
+    position: relative;
+    width: 10rem;
+    height: 12rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+    bottom: 2.5rem;
+    /* margin-left: 1rem; */
+}
+.empty-container3 {
+    position: relative;
+    width: 9.6rem;
+    height: 12rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+    bottom: 2.5rem;
+    /* margin-left: 1rem; */
+}
+.empty-container4 {
+    position: relative;
+    width: 20.4rem;
+    height: 12rem;
+    background-color: #3d3c3c;
+    margin-left: .425rem;
+    bottom: 2.5rem;
+    /* margin-left: 1rem; */
+}
+.empty-container5 {
+    position: relative;
+    width: 20rem;
+    height: 9rem;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    margin-left: .425rem;
+    top: 0.4rem;
+    /* margin-left: 1rem; */
+}
+h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* background: linear-gradient(45deg, #ff0000, #00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(45deg, #ff0000, #00ff00);
+    background-clip: clip;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#tt {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    background: linear-gradient(45deg, #89ABE3, #EA738D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#ins {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* font-size: 0.7rem; */
+    background: linear-gradient(45deg, #CC313D, #8A307F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
